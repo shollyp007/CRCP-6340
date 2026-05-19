@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121836"/>
+      <stop offset="100%" stop-color="#5e7eff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="30" fill="url(#g4)"/>
+  <circle cx="220" cy="220" r="100" fill="#ffffff" opacity="0.14"/>
+  <path d="M150 470 C320 320 580 520 740 380" stroke="#ffd86f" stroke-width="30" fill="none" stroke-linecap="round" opacity="0.2"/>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="48" fill="#ffffff">Studio Build</text>
+</svg>

@@ -1,0 +1,84 @@
+/* Global styling for the portfolio page */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #090b13;
+    color: #f8f9fa;
+}
+
+section {
+    position: relative;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background-image: url('../images/hero-bg.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(8, 13, 26, 0.7);
+}
+
+.hero-content {
+    z-index: 2;
+    padding: 120px 0 80px;
+}
+
+.letter-spacing {
+    letter-spacing: 0.25em;
+    color: #c5d2ff;
+}
+
+.section-title {
+    font-size: clamp(2rem, 2.5vw, 2.75rem);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.section-subtitle {
+    color: #ced4da;
+    max-width: 720px;
+}
+
+.about-card {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background: #0f172c;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.card-text {
+    color: #ced4da;
+}
+
+.footer {
+    background: #070a12;
+}
+
+@media (max-width: 767px) {
+    .hero-content {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}

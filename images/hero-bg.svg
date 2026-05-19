@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081024"/>
+      <stop offset="100%" stop-color="#241f4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="420" cy="280" r="220" fill="#5c6bff" opacity="0.24"/>
+  <circle cx="1180" cy="520" r="260" fill="#ff6c8f" opacity="0.22"/>
+  <rect x="500" y="180" width="520" height="520" rx="60" fill="#ffffff" opacity="0.06"/>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="80" fill="#ffffff" opacity="0.35">Olusola</text>
+</svg>

@@ -3,13 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="favicon.ico ">
-    <title>PERSONAL NFT MINT</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Olusola Adeaga | CRCP 6340</title>
     <meta name="author" content="Olusola Adeaga">
-    <meta name="description" content="This is a personal project to mint my own NFTs. I will be using the OpenSea API to mint my NFTs and display them on my website for free.">
-    <link rel="stylesheet" href="./style.css">
+    <meta name="description" content="A responsive portfolio page for Olusola Adeaga, featuring artwork, projects, and contact information.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BTVBBfQ0xQdD4qkUz+MRjNXV7FL0TKsNtHYtigC51b8qdOxIdj4w+OO9FQVnB5L5" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <script type="module" src="./index.js"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">Olusola Adeaga</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#featured">Featured</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section text-white d-flex align-items-center">
+            <div class="hero-overlay"></div>
+            <div class="container position-relative hero-content text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <small class="text-uppercase letter-spacing">Digital Artist & NFT Creator</small>
+                        <h1 class="display-4 fw-bold mt-3">Crafting bold digital experiences through art and technology.</h1>
+                        <p class="lead text-light my-4">Welcome to my creative space. Discover featured works, learn about my artistic journey, and get in touch to collaborate.</p>
+                        <div class="d-flex justify-content-center gap-3 flex-wrap">
+                            <a href="#featured" class="btn btn-primary btn-lg">View Featured Work</a>
+                            <a href="contact.html" class="btn btn-outline-light btn-lg">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="py-5">
+            <div class="container">
+                <div class="row align-items-center mb-4">
+                    <div class="col-md-8">
+                        <h2 class="section-title">Featured Project</h2>
+                        <p class="section-subtitle">A showcase of my latest work with a collectible NFT concept.</p>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <a href="projects.html" class="btn btn-outline-primary">See All Projects</a>
+                    </div>
+                </div>
+                <div class="row g-4" id="projects">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="./images/featured-1.svg" class="card-img-top" alt="Featured artwork">
+                            <div class="card-body">
+                                <h5 class="card-title">NFT Collection Launch</h5>
+                                <p class="card-text">An expressive digital art drop featuring bold colors, motion, and story-driven artwork.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="./images/featured-2.svg" class="card-img-top" alt="Art project preview">
+                            <div class="card-body">
+                                <h5 class="card-title">Visual Storytelling</h5>
+                                <p class="card-text">A project blending narrative, animation, and interactive design for a modern audience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="./images/featured-3.svg" class="card-img-top" alt="Project preview">
+                            <div class="card-body">
+                                <h5 class="card-title">Digital Brand Series</h5>
+                                <p class="card-text">A curated set of brand-focused visuals designed for artists, collectors, and digital communities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="bg-light py-5">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="about-card p-4 rounded-4 shadow-sm">
+                            <h2>About Me</h2>
+                            <p class="lead">I am Olusola Adeaga, a digital artist exploring how technology and visual storytelling combine to create memorable experiences. My work focuses on layered compositions, vibrant palettes, and immersive digital concepts.</p>
+                            <p>I create with a purpose: to invite viewers into new worlds while building communities around art, NFTs, and modern design.</p>
+                            <a href="contact.html" class="btn btn-primary mt-3">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./images/about-image.svg" class="img-fluid rounded-4 shadow" alt="Artist portrait or studio image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p class="mb-1">Copyright © 2026 Olusola Adeaga</p>
+            <small>Built with Bootstrap, responsive for all screens. Visit <a href="contact.html" class="text-decoration-underline text-white">Contact</a> or <a href="https://www.linkedin.com/in/olusola-adeaga-55889060/" target="_blank" class="text-decoration-underline text-white">LinkedIn</a> to work together.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-VoPFgray5Qhzb14+E62brGtkNpmUUeZprN4vAm9iWzWnzBYFpiaDmQRH+LpiwHHd" crossorigin="anonymous"></script>
+    <script type="module" src="./JS/index.js"></script>
 </body>
 </html>

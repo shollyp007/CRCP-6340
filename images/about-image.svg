@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#122031"/>
+      <stop offset="100%" stop-color="#5a72ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" rx="40" fill="url(#g4)"/>
+  <circle cx="240" cy="240" r="120" fill="#ffffff" opacity="0.18"/>
+  <circle cx="660" cy="460" r="140" fill="#ff7fa8" opacity="0.16"/>
+  <path d="M120 520 C340 360 560 620 780 460" stroke="#fff" stroke-width="24" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="48" fill="#ffffff">Artist Studio</text>
+</svg>
