@@ -68,6 +68,23 @@ section {
     color: #ced4da;
 }
 
+.social-icon {
+    font-size: 1.6rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    color: #0d6efd;
+    transform: translateY(-1px);
+}
+
 .footer {
     background: #070a12;
 }
